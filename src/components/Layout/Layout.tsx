@@ -42,7 +42,7 @@ export default function Layout(
                         Object.keys(navLinks).map((key: any, index: number) => {
                             return (
                                 <NavLink key={index} to={"/" + navLinks[key]}
-                                style={({isActive, isPending, isTransitioning}) => {
+                                style={({isActive}) => {
                                     return {
                                         color: isActive ? "#38bdf8" : "white", 
                                     };

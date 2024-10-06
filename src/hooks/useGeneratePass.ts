@@ -25,11 +25,6 @@ function generateRandomSpecial() {
         String.fromCharCode(123 + Math.floor(Math.random()*4)), 
     ];
     return candidates[Math.floor(Math.random()*4)];;
-    // const dieRoll = Math.random()*4;
-    // if (dieRoll < 1) return candidates[0];
-    // else if (dieRoll < 2) return candidates[1];
-    // else if (dieRoll < 3) return candidates[2];
-    // else return candidates[3];
 }
 
 export default function useGeneratePass(
